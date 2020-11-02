@@ -1,0 +1,96 @@
+<!--HTML WEBPAGE TEMPLATE-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>CSProject1</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#">Computing Is Good</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="medicine.html">Medicine</a></li>
+                    <li class="active"><a href="motoring.html">Motoring</a></li>
+                    <!--REPLACE THE '#' WITH THE NAME OF THE DOCUMENT, THEN CHANGE 'Placeholder' TO THE ARTICLE NAME-->
+                    <li><a href="AI.html">AI</a></li>
+                    <li><a href="Environmental">Environmental</a></li>
+                    <li><a href="#">Placeholder</a></li>
+                </ul>
+            </div>
+        </div>       
+    </nav>
+    <div class="custom-container container-fluid">
+        <div class="row">
+            <div class="col-md-10" style="background-color: #e6e6e6;">
+                <div class="row">
+                    <div class="col-md-10">
+                        <!--CHANGE PLACEHOLDER TEXT TO ARTICLE CONTENT-->
+                        <h1>Environment</h1>
+                    </div>           
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Computer science helps the environment in many ways. The most obvious is the monitoring of the conditions on earth. The EU's Copernicus programme is used for monitoring the air, land and seas. This data, gathered through orbital satellites and various ground stations, is then used to inform and modify the policies passed in the European commision.</p>
+                        <br>
+                        <p>Furthermore, the agricultural impact computer science has had cannot be underestimated. Looking at the big picture, computing has helped optimise the logistics and environment control mechanisms behind food delivery, helping more food reach more people while trying to minimise waste. Modern Transportation Management Systems in the food industry would not be possible without advances in making computers smaller and more energy efficient.</a></p>
+                        <br>
+                        <p>Looking ahead, computers can help change the future of food production. Hydroponics systems are being developed to maximise the efficiency and flavour of plants grown in artificial conditions. MIT have conducted research into this, using computational techniques to develop growing techniques, including the specifics UV light frequencies to be used.</p>
+                        <br>
+                        <!--IF YOU DIDNT USE SOURCES, YOU CAN REMOVE THE CODE TO THE </DIV>-->
+                        <h2>Sources</h2>
+                        <ul>
+                            <li><a href = "https://www.copernicus.eu/en/about-copernicus">Copernicus Programme</a></li>
+                            <li><a href = "https://talkinglogistics.com/2018/01/25/transportation-management-systems-food-industry/">Transportation Management Systems</a></li>
+                            <li><a href = "https://news.mit.edu/2019/algorithm-growing-agriculture-0403">MIT hydroponics research</a></li>
+                        </ul>
+                    </div>
+                      <div class="col-md-4">
+                        <img src="https://www.farminguk.com/images/News/56093_1.jpg" class="img-responsive img-rounded" alt="Image of farmland">
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2" style="background-color:#2e2e2e; color:white; text-align: center;">
+                <h1>Learn More:</h1>
+                <!--EPLACE ONE OF THE PLACEHOLDERS WITH YOUR OWN DOCUMENT NAME, AND INCLUDE THE LINK AS SHOWN BELOW-->
+                <button class="btn grey-background black" style="width:80%" ><a href = medicine.html>Medicine</a></button>
+                <button class="btn grey-background black" style="width:80%">Article2</button>
+                <button class="btn grey-background black" style="width:80%">Article3</button>
+                <button class="btn grey-background black" style="width:80%">Article4</button>
+                <!--DONE!!!!-->
+            </div>
+        </div>               
+    </div>
+  </body>
+  <style>
+      .container-fluid.custom-container {
+        margin: 0 40px;
+        padding:0 20px;
+    }
+    .btn{
+        padding:10px;
+        margin:20px;
+    }
+    .grey-background{
+        background-color:#e6e6e6;
+    }
+    .black {color:#2e2e2e;}
+    body{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        opacity: 1;
+        transition: 1s opacity;
+    }
+  </style>
+</html>
